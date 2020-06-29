@@ -79,9 +79,9 @@ const FolderViewBody = ({
           <AddFolder refreshFolderContent={refreshFolderContent} />
           {isInError && <Oops />}
           {isLoading && <FileListRowsPlaceholder />}
-          {/* TODO FolderViewBody should not have the responsability to chose 
-          which empty component to display. It should be done by the "view" itself. 
-          But adding a new prop like <FolderViewBody emptyComponent={} 
+          {/* TODO FolderViewBody should not have the responsability to chose
+          which empty component to display. It should be done by the "view" itself.
+          But adding a new prop like <FolderViewBody emptyComponent={}
           is not good enought too */}
           {isEmpty &&
             currentFolderId !== TRASH_DIR_ID && (
