@@ -134,7 +134,7 @@
     "minilog": "https://github.com/cozy/minilog.git#master",
     "node-polyglot": "2.4.0",
     "node-uuid": "1.4.8",
-    "piwik-react-router": "0.8.2",
+    "piwik-react-router": "0.12.1",
     "popper.js": "1.16.1",
     "pouchdb-adapter-cordova-sqlite": "^2.0.7",
     "pouchdb-find": "0.10.5",
